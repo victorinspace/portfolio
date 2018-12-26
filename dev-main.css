@@ -1,0 +1,19 @@
+html {
+  box-sizing:border-box;
+  font-family:'Slabo 27px', monospace;
+  color:#333;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+html, body {
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+

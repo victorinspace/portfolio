@@ -1,15 +1,8 @@
-html {
-  box-sizing:border-box;
-  font-family:'Slabo 27px', monospace;
-  color:#333;
-}
-
-*, *:before, *:after {
-  box-sizing:inherit;
-}
-
-html, body {
-  height:100%;
+body {
+  height: 100vh;
+  font-family: 'Karma', serif;
+  background-color: #FFFFEB;
+  color:#191915;
 }
 
 a {
@@ -17,3 +10,15 @@ a {
   color: inherit;
 }
 
+i {
+  border: 2px solid red;
+  font-size: 5em;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h3 {
+  font-size: 4em;
+}

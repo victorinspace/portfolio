@@ -42,6 +42,23 @@ a {
 #title > h3 {
   font-size: 4em;
   color: #3E72A4;
+  margin-top: -100px;
+}
+
+/* Tech Skills Area */
+.tech {
+  text-align:center;
+  padding-bottom: 50px;
+}
+
+.tech i {
+  font-size: 3em;
+  margin: 0 20px;
+  color: #191915;
+}
+
+.tech i:hover {
+  color: none;
 }
 
 
@@ -53,6 +70,8 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px 0;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 i {
@@ -98,7 +117,7 @@ i:hover {
   Quote
 ***********/
 #quote {
-  padding: 30px 0;
+  padding: 50px 0;
   font-style: italic;
   max-width: 800px;
   margin: 0 auto;

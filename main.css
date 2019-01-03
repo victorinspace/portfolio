@@ -95,7 +95,6 @@ i:hover {
 
 .bottom-social {
   font-size: 4em;
-<<<<<<< HEAD
 }
 
 
@@ -126,39 +125,6 @@ i:hover {
 blockquote > p {
   color: #444442;
 }
-=======
-
-}
-
-
-/*********** 
-  About
-***********/
-#about {
-  padding: 15px 25px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#about > p {
-  padding: 20px 0;
-}
-
-
-/*********** 
-  Quote
-***********/
-#quote {
-  padding: 50px 0;
-  font-style: italic;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-blockquote > p {
-  color: #444442;
-}
->>>>>>> 0e5b4b701f0939f18ecfbf26626c764deaf429ca
 footer {
   font-size: 1.5em;
   text-align: end;

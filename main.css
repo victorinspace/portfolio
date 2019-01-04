@@ -111,6 +111,11 @@ i:hover {
   padding: 20px 0;
 }
 
+#about a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 
 /*********** 
   Quote

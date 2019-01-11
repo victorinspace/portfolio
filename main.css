@@ -105,11 +105,13 @@ i:hover {
   text-decoration: underline;
 }
 
+
 /* Work Section
 ---------------------------------------*/
 #work {
   max-width: 950px;
   margin: 0 auto;
+  padding: 15px 0;
 }
 
 .card {
@@ -117,6 +119,7 @@ i:hover {
   border-radius: 5px;
   background-color: #fff;
   padding: 20px 40px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -131,6 +134,7 @@ i:hover {
 .work-card__link {
   text-decoration: underline;
 }
+
 
 /* Favorite Quote
 ---------------------------------------*/

@@ -152,3 +152,9 @@ footer {
   font-size: 1.5em;
   text-align: end;
 }
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 2rem;
+  }
+}

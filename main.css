@@ -25,6 +25,10 @@ a {
   color: inherit;
 }
 
+.text-width {
+  max-width: 550px;
+}
+
 /* Name and Title
 ---------------------------------------*/
 #title {
@@ -97,7 +101,6 @@ i:hover {
 ---------------------------------------*/
 #about {
   padding: 15px 25px;
-  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -109,7 +112,6 @@ i:hover {
 /* Work Section
 ---------------------------------------*/
 #work {
-  max-width: 550px;
   margin: 0 auto;
   padding: 15px 0;
 }
@@ -141,7 +143,6 @@ i:hover {
 #quote {
   padding: 50px 0;
   font-style: italic;
-  max-width: 550px;
   margin: 0 auto;
 }
 

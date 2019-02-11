@@ -11,50 +11,34 @@ html {
 
 body {
   height: 100vh;
-  font-family: 'Karma', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
-  background-color: #000000;
-  color: #000;
-}
-
-h1 {
-  font-size: 12em;
+  background-color: #eee;
+  color: #333;
 }
 
 p {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 
-.text-copy {
-  max-width: 900px;
-}
-
-/* Name and Title
+/* Introduction
 ---------------------------------------*/
-#title {
-  padding: 25px 0 15px;
-  margin-bottom: 35px;
-  text-align: center;
-  background-image: url('./images/eberhard-grossgasteiger-1241085-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.introduction {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 @keyframes nameFadeIn {
   0% {
-    /* position: absolute; */
     top: -3rem;
     opacity: 0;
   }
 
   75% {
-    /* position: absolute; */
     top: 25%;
     opacity: 1;
   }
@@ -64,50 +48,25 @@ a {
   }
 }
 
-#title > h1 {
-  color: #32382d;
+.introduction > h1 {
+  font-family: 'Karma', serif;
+  font-size: 12em;
+  color: #505050;
   width: 100%;
-  line-height: 3;
-
   animation-name: nameFadeIn;
   animation-duration: 5s;
 }
 
-@keyframes titleFadeIn {
-  0% {
-    /* position: absolute; */
-    top: -3rem;
-    opacity: 0;
-  }
-
-  75% {
-    /* position: absolute; */
-    top: 25%;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-#title > h2 {
-  font-size: 5em;
-  color: #ffff6e;
-  line-height: 1;
-  width: 100%;
-  animation-name: nameFadeIn;
-  animation-duration: 8s;
-}
-
 /* Tech Skills Area */
 .tech {
-  text-align:center;
+  text-align: center;
+  margin: 0 auto;
   width: 100%;
+  padding: 0 0 50px;
 }
 
 .tech i {
-  font-size: 5em;
+  font-size: 7em;
   margin: 0 20px;
   color: #FFF;
 }
@@ -152,12 +111,17 @@ a {
   color: #172ba0;
 }
 
+
+.text-copy {
+  max-width: 900px;
+}
+
 /* About Me
 ---------------------------------------*/
 #about {
   padding: 15px 25px;
   margin: 0 auto;
-  background-color: #CCC;
+  background-color: #FFF;
 }
 
 #about a {

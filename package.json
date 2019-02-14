@@ -1,0 +1,30 @@
+{
+  "name": "victorinspace",
+  "version": "0.1.0",
+  "description": "Portfolio site for Victor Velasquez.",
+  "main": "index.html",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -b master -d public",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorinspace/victorinspace.github.io.git"
+  },
+  "author": "Victor Velasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorinspace/victorinspace.github.io/issues"
+  },
+  "homepage": "https://github.com/victorinspace/victorinspace.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "gatsby": "^2.0.118",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}

@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "60e598c5800f6020cbd1579b918a0fd9",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -243,10 +252,6 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "gh-pages",
-            "version": "^2.0.1"
-          },
-          {
             "name": "gatsby",
             "version": "^2.0.118"
           },
@@ -259,7 +264,12 @@
             "version": "^16.8.0"
           }
         ],
-        "devDependencies": [],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          }
+        ],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
@@ -377,35 +387,17 @@
     },
     "Site": {
       "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-14T07:31:36.794Z",
+      "buildTime": "2019-02-20T04:30:18.407Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8f08fb9803342824a455f17d46e98bb3",
+        "contentDigest": "2eaecf8f10b77912948b8377563c07a9",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about-css-modules/": {
-      "jsonName": "about-css-modules-c4c",
-      "internalComponentName": "ComponentAboutCssModules",
-      "path": "/about-css-modules/",
-      "component": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/src/pages/about-css-modules.js",
-      "componentChunkName": "component---src-pages-about-css-modules-js",
-      "context": {},
-      "pluginCreator___NODE": "2d6912fd-fadd-5ef4-95f3-728ac73578cf",
-      "pluginCreatorId": "2d6912fd-fadd-5ef4-95f3-728ac73578cf",
-      "componentPath": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/src/pages/about-css-modules.js",
-      "id": "SitePage /about-css-modules/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c3efbb8c7b3c4216fde2b6c94e223c99",
-        "description": "2d6912fd-fadd-5ef4-95f3-728ac73578cf",
         "owner": "internal-data-bridge"
       }
     },
@@ -432,7 +424,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "265097ef9ee1b145ba27be1f1ba93344"
+    "PLUGINS_HASH": "73c41a0853c7b88a9de47a29c5bd76e2"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -444,9 +436,9 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/src/pages/about-css-modules.js": {
+    "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/src/pages/about-css-modules.js"
+      "componentPath": "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/.cache/dev-404-page.js"
     },
     "/Users/alexxx/Documents/work/portfolio/victorinspace.github.io/src/pages/index.js": {
       "query": "",

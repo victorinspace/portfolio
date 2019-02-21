@@ -1,53 +1,0 @@
-Script started on Thu Feb 14 00:04:03 2019
-[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io]1;..ace.github.io[0m[27m[24m[J[01;32m➜  [36mvictorinspace.github.io[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscript
-[J[0mSCRIPT    [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[42Cscript[KSCRIPT[1m=[0m
-[J[7mSCRIPT  [0m  [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[42CSCRIPT[1m=[0m[K
-[7mSCRIPT  [0m  [7mSCRIPT  [0m  [A[0m[27m[24m[42CSCRIPT[1m=[0m[Kscript[0m 
-[10C[7mscript  [0m  SCRIPT    [A[0m[27m[24m[42Cscript[Ks[1m/[0m
-[20C[7mscripts/[0m[10Cscript    [A[0m[27m[24m[42Cscripts[1m/[0m[K
-[J[A[50C[0m [?1l>[?2004l
-[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io/scripts]1;..ub.io/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
-]2;ls -G -lah]1;ltotal 0
-drwxr-xr-x   2 alexxx  staff    64B Feb 14 00:03 [1m[36m.[39;49m[0m
-drwxr-xr-x  17 alexxx  staff   544B Feb 14 00:04 [1m[36m..[39;49m[0m
-[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io/scripts]1;..ub.io/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch deploy-github.js[?1l>[?2004l
-]2;touch deploy-github.js]1;touch[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io/scripts]1;..ub.io/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
-]2;ls -G -lah]1;ltotal 8
-drwxr-xr-x   3 alexxx  staff    96B Feb 14 00:05 [1m[36m.[39;49m[0m
-drwxr-xr-x  17 alexxx  staff   544B Feb 14 00:06 [1m[36m..[39;49m[0m
--rw-r--r--   1 alexxx  staff   251B Feb 14 00:05 deploy-github.js
-[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io/scripts]1;..ub.io/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnnpm run build[?1l>[?2004l
-]2;npm run build]1;npm
-> victorinspace@0.1.0 build /Users/alexxx/Documents/work/portfolio/victorinspace.github.io
-> gatsby build
-
-[1G⠁ [0K[2K[1G[32msuccess[39m open and validate gatsby-configs — 0.011 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m load plugins — 0.134 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m onPreInit — 0.112 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m delete html and css files from previous builds — 0.012 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m initialize cache — 0.006 s
-[2K[1G[1G⠁ [0K[1G⠂ copy gatsby files[0K[2K[1G[32msuccess[39m copy gatsby files — 0.095 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m onPreBootstrap — 0.008 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m source and transform nodes — 0.017 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m building schema — 0.201 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m createPages — 0.000 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m createPagesStatefully — 0.039 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m onPreExtractQueries — 0.000 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m update schema — 0.076 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m extract queries from components — 0.025 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m run graphql queries — 0.010 s — 2/2 227.64 queries/second
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m write out page data — 0.004 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m write out redirect data — 0.001 s
-[2K[1G[1G⠁ [0K[2K[1G[32msuccess[39m onPostBootstrap — 0.001 s
-[2K[1G[2K[1G
-[2K[1G[34minfo[39m bootstrap finished - 4.819 s
-[2K[1G
-[1G⠁ [0K[1G⠂ Building production JavaScript and CSS bundles[0K[1G⠄ Building production JavaScript and CSS bundles[0K[1G⡀ Building production JavaScript and CSS bundles[0K[1G⢀ Building production JavaScript and CSS bundles[0K[1G⠠ Building production JavaScript and CSS bundles[0K[1G⠐ Building production JavaScript and CSS bundles[0K[1G⠈ Building production JavaScript and CSS bundles[0K[1G⠁ Building production JavaScript and CSS bundles[0K[1G⠂ Building production JavaScript and CSS bundles[0K[1G⠄ Building production JavaScript and CSS bundles[0K[1G⡀ Building production JavaScript and CSS bundles[0K[1G⢀ Building production JavaScript and CSS bundles[0K[1G⠠ Building production JavaScript and CSS bundles[0K[2K[1G[32msuccess[39m Building production JavaScript and CSS bundles — 3.171 s
-[2K[1G[1G⠁ [0K[1G⠂ Building static HTML for pages[0K[1G⠄ Building static HTML for pages[0K[1G⡀ Building static HTML for pages[0K[1G⢀ Building static HTML for pages[0K{ user: [32m'about-css-modules-module--user--2CXbd'[39m,
-  avatar: [32m'about-css-modules-module--avatar--2lRF7'[39m,
-  description: [32m'about-css-modules-module--description--ev5yS'[39m,
-  username: [32m'about-css-modules-module--username--2EBkm'[39m,
-  excerpt: [32m'about-css-modules-module--excerpt--2Itwq'[39m }
-[1G⠠ Building static HTML for pages[0K[2K[1G[32msuccess[39m Building static HTML for pages — 0.352 s — 2/2 10.19 pages/second
-[2K[1G[2K[1G[34minfo[39m Done building in 8.344 sec
-[1m[7m%[27m[1m[0m                                                                                                                                              ]2;alexxx@Caspers-MacBook-Pro: ~/Documents/work/portfolio/victorinspace.github.io/scripts]1;..ub.io/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

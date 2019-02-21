@@ -380,12 +380,12 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-21T14:57:57.983Z",
+      "buildTime": "2019-02-21T15:12:38.362Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b0e7bc7f5892783b9138a4f1e5103019",
+        "contentDigest": "73579b2b2d4bf12698f00aa6f0eb030a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -413,7 +413,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "73c41a0853c7b88a9de47a29c5bd76e2"
+    "PLUGINS_HASH": "75670c38eb1b9d889a622433ed3c5d73"
   },
   "componentDataDependencies": {
     "nodes": {},

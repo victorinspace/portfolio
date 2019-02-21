@@ -9,7 +9,7 @@ export default () => (
         👋🏾
       </span>
     </h1>
-    <h1>I'm a Front-End Developer.</h1>
+    <h1>I'm a Front-End Developer. I like doggos.</h1>
     <p>This site is currently under construction.</p>
     <p>
       In the meantime, please take a look at my{" "}

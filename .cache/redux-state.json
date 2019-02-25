@@ -380,12 +380,12 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-21T15:15:25.728Z",
+      "buildTime": "2019-02-25T17:36:03.014Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "132da8577afe9a20c35518d53ffbec36",
+        "contentDigest": "b26a1cab522081366e59c9a4944ea791",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

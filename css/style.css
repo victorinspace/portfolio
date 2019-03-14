@@ -14,10 +14,14 @@ ul {
   margin: 0 auto;
   max-width: 1000px;
   background-color: #bcf9d4;
-  padding: 50px;
+  padding-bottom: 10px;
   font-size: 1.5em;
-  border-radius: 10px;
-  filter: drop-shadow(3px 6px 9px #323232);
+  /* border-radius: 10px; */
+  /* filter: drop-shadow(3px 6px 9px #323232); */
+}
+
+#main {
+  padding: 0 15px;
 }
 
 .header {

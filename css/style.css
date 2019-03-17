@@ -1,7 +1,7 @@
 @import "normalize.css";
 
 body {
-  background-color: #6fd996;
+  background-color: #fff;
   color: #222;
   font-family: "Merriweather", serif;
 }
@@ -10,10 +10,14 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: #c23a3a;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
-  background-color: #bcf9d4;
+  background-color: #fff;
   padding-bottom: 10px;
   font-size: 1.5em;
 }
@@ -23,8 +27,8 @@ ul {
 }
 
 .header {
-  background-image: url("https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  background-color: #ccc;
+  /* background-image: url("https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
+  background-color: #fff;
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,11 +42,11 @@ ul {
   top: 25%;
   left: 25%;
   transform: translate(-25%, -25%);
-  color: #ff5c5c;
+  color: #ff2020;
 }
 
 #project-header {
-  background-color: #ff5c5c;
+  background-color: #ff2020;
   height: 50px;
   color: #fff;
   text-align: center;
@@ -50,13 +54,13 @@ ul {
 }
 
 #project-list {
-  margin: 0 auto;
+  display: flex;
 }
 
 .project {
-  max-width: 500px;
-  border: 2px solid #ff5c5c;
-  background: #eee;
+  max-width: 400px;
+  /* border: 2px solid #ff2020; */
+  /* background: #eee; */
   padding: 10px;
   border-radius: 5px;
   margin: 10px;

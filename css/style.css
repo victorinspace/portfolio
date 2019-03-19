@@ -1,5 +1,12 @@
 @import "normalize.css";
 
+/* @media (min-width: 431px) {
+  .header {
+    height: 200px;
+    position: relative;
+  }
+} */
+
 body {
   background-color: #fff;
   color: #222;
@@ -27,20 +34,35 @@ a {
 }
 
 .header {
-  background-color: #fff;
   height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
 
 .header-text {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-25%, -25%);
+  /* position: absolute;
+  left: 5%; */
   color: #d12424;
+  padding: 10px;
+  /* line-height: 10%; */
+}
+
+.my-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+#my-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 10px 66px 20px 20px;
+}
+
+#project-container {
+  padding-top: 30px;
 }
 
 #project-header {

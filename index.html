@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Victor Velasquez | Developer</title>
     <meta charSet="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
@@ -14,99 +15,105 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <noscript>This app works best with JavaScript enabled.</noscript>
-    <div>
-      <section class="hero">
-        <div class="hero-inner">
-          <h1>
-            Hi, I&#x27;m Victor.
-            <span class="my_hand" role="img" aria-label="waving hand">👋🏾</span>
-          </h1>
-          <h2>I&#x27;m a <nobr>Front-End</nobr> Developer.</h2>
-          <a href="#my_main" class="btn">Go ahead...</a>
-        </div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#my_work">My Work</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>
+          Hi, I&#x27;m Victor.
+          <span class="my_hand" role="img" aria-label="waving hand">👋🏾</span>
+        </h1>
+        <h2>I&#x27;m a <nobr>Front-End</nobr> Developer.</h2>
+        <a href="#about_me" class="btn">Go on..</a>
+      </div>
+    </section>
+    <main class="wrapper">
+      <div class="my-photo">
+        <img id="my-photo" src="./images/v-d.jpg" alt="victor" />
+      </div>
+      <section id="main">
+        <p id="about_me">
+          Partial to component-based development using React JS and its
+          affiliate frameworks (Vue, Gatsby, etc.)
+        </p>
+        <p>I used to play music. I still do, but I used to, too.</p>
+        <br />
+        <p>
+          Please take a look at my
+          <a
+            href="https://github.com/victorinspace"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >, view my
+          <a
+            href="./documents/Victor-Velasquez-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume</a
+          >, follow me on
+          <a
+            href="https://twitter.com/victorinspace"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >, or view my
+          <a
+            href="https://www.linkedin.com/in/victor-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >!
+        </p>
       </section>
-      <div class="wrapper">
-        <div class="my-photo">
-          <img id="my-photo" src="./images/v-d.jpg" alt="victor" />
-        </div>
-        <section id="main">
-          <p id="my_main">
-            Partial to component-based development using React JS and its
-            affiliate frameworks (Vue, Gatsby, etc.)
-          </p>
-          <p>I used to play music. I still do, but I used to, too.</p>
-          <br />
-          <p>
-            Please take a look at my
-            <a
-              href="https://github.com/victorinspace"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >, view my
-            <a
-              href="./documents/Victor-Velasquez-Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Resume</a
-            >, follow me on
-            <a
-              href="https://twitter.com/victorinspace"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Twitter</a
-            >, or view my
-            <a
-              href="https://www.linkedin.com/in/victor-dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >LinkedIn</a
-            >!
-          </p>
-        </section>
 
-        <section id="project-container">
-          <h2 id="project-header">Projects:</h2>
-
-          <div id="project-list">
-            <div class="project">
-              <div class="project-text">
-                <a href="https://github.com/victorinspace/Food-For-Thought"
-                  ><h3>Food 4 Thought</h3></a
-                >
-                <p>
-                  React-based project. An app that connects restaurants to food
-                  shelters, minimizing waste and helping the community.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-text">
-                <a href="https://victorinspace.github.io/nevada-edge-lp/"
-                  ><h3>Nevada Edge</h3></a
-                >
-                <p>
-                  A landing page for Neveda Corporate Headquarters e-book: The
-                  Nevada Edge.
-                </p>
-              </div>
-            </div>
-            <div class="project">
-              <div class="project-text">
-                <a href="https://reverent-shannon-0827e1.netlify.com/"
-                  ><h3>What 2 Do?</h3></a
-                >
-                <p>
-                  A React-based To-Do app, using
-                  <a href="https://github.com/nostalgic-css/NES.css">NES.css</a>
-                  to create an <nobr>8-bit</nobr> aesthetic.
-                </p>
-              </div>
+      <section id="project-container">
+        <h2 id="project-header">Projects:</h2>
+        <div id="my_work"></div>
+        <div id="project-list">
+          <div class="project">
+            <div class="project-text">
+              <a href="https://github.com/victorinspace/Food-For-Thought"
+                ><h3>Food 4 Thought</h3></a
+              >
+              <p>
+                React-based project. An app that connects restaurants to food
+                shelters, minimizing waste and helping the community.
+              </p>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
+          <div class="project">
+            <div class="project-text">
+              <a href="https://victorinspace.github.io/nevada-edge-lp/"
+                ><h3>Nevada Edge</h3></a
+              >
+              <p>
+                A landing page for Neveda Corporate Headquarters e-book: The
+                Nevada Edge.
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <a href="https://reverent-shannon-0827e1.netlify.com/"
+                ><h3>What 2 Do?</h3></a
+              >
+              <p>
+                A React-based To-Do app, using
+                <a href="https://github.com/nostalgic-css/NES.css">NES.css</a>
+                to create an <nobr>8-bit</nobr> aesthetic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

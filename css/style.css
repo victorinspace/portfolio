@@ -1,10 +1,41 @@
 @import "normalize.css";
 
 body {
-  margin: 0;
+  margin: 80px 0 0 0;
   background-color: #fff;
   color: #222;
   font-family: "Merriweather", serif;
+}
+
+/* Add logo here */
+/* header p {
+  height: 80px;
+  margin-left: 40px;
+} */
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  font-size: 1.3em;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  text-decoration: none;
 }
 
 .hero {
@@ -110,19 +141,6 @@ a {
 
 #main {
   padding: 0 15px;
-}
-
-.header {
-  height: 450px;
-  /* position: relative; */
-}
-
-.header-text {
-  /* position: absolute;
-  left: 5%; */
-  color: #d12424;
-  padding: 10px;
-  /* line-height: 10%; */
 }
 
 .my-photo {

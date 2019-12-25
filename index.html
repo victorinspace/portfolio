@@ -9,55 +9,70 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <section class="hero">
-      <div class="hero-inner">
-        <h1>Hi! I&#x27;m Victor Velasquez! <span class="my_hand" role="img" aria-label="waving hand">👋🏾</span></h1>
-        <h2>I&#x27;m a <nobr>Front-End</nobr> Web Developer.</h2>
+    <section class="row">
+      <div class="col-lg">
+        <div class="box">
+          <h1>Hi, I&#x27;m Victor Velasquez! <span class="my_hand" role="img" aria-label="waving hand">👋🏾</span></h1>
+        </div>
+        <div class="box">
+          <h3>I&#x27;m a <nobr>Front-End</nobr> Web Developer.</h3>
+        </div>
       </div>
     </section>
 
+    <section class="row">
+      <section class="col-md">
+        <div class="box">
+          <a href="https://github.com/victorinspace" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/victor-dev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://twitter.com/victorinspace" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="./documents/Victor-Velasquez-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+      </section>
+    </section>
+
     <main class="row">
-      <section id="col-xs-12">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a href="https://github.com/victorinspace" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/victor-dev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://twitter.com/victorinspace" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <a href="./documents/Victor-Velasquez-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      
+      <section class="col-md">
+        <h2>About Me:</h2>
+        
+        <div class="box">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
       </section>
 
-      <section id="project-container">
-        <h2 id="project-header">Projects:</h2>
-        <div id="my_work"></div>
-        <div id="project-list">
-          <div class="project">
-            <div class="project-text">
-              <a href="https://github.com/victorinspace/Food-For-Thought">
-                <h3>Food 4 Thought</h3>
-              </a>
-              <p>React-based project. An app that connects restaurants to food shelters, minimizing waste and helping the community.</p>
-            </div>
+      <div class="row">
+        <div class="col-md">
+          <h2>Projects:</h2>
+        </div>
+      </div>
+
+      <section class="row">
+        <div class="col-md">
+          <div class="box">
+            <a href="https://github.com/victorinspace/Food-For-Thought">
+              <h3>Food 4 Thought</h3>
+            </a>
+            <p>React-based project. An app that connects restaurants to food shelters, minimizing waste and helping the community.</p>
           </div>
-          <div class="project">
-            <div class="project-text">
-              <a href="https://victorinspace.github.io/nevada-edge-lp/">
-                <h3>Nevada Edge</h3></a>
-              <p>A landing page for Neveda Corporate Headquarters e-book: The Nevada Edge.</p>
-            </div>
+          <div class="box">
+            <a href="https://victorinspace.github.io/nevada-edge-lp/">
+              <h3>Nevada Edge</h3></a>
+            <p>A landing page for Neveda Corporate Headquarters e-book: The Nevada Edge.</p>
           </div>
-          <div class="project">
-            <div class="project-text">
-              <a href="https://reverent-shannon-0827e1.netlify.com/">
-                <h3>What 2 Do?</h3>
-              </a>
-              <p>A React-based To-Do app, using <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> to create an <nobr>8-bit</nobr> aesthetic.</p>
-            </div>
+          <div class="box">
+            <a href="https://reverent-shannon-0827e1.netlify.com/">
+              <h3>What 2 Do?</h3>
+            </a>
+            <p>A React-based To-Do app, using <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> to create an <nobr>8-bit</nobr> aesthetic.</p>
           </div>
         </div>
       </section>
+      
     </main>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </body>

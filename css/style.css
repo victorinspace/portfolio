@@ -7,7 +7,9 @@ body {
   font-family: "Merriweather", serif;
 }
 
-/* Wave the hand */
+
+/**** 
+Wave the hand */
 span.my_hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;

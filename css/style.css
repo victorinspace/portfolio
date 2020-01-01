@@ -45,3 +45,11 @@ span.my_hand {
   color: #eee;
   background-color: #475B63;
 }
+
+/* .cryptedmail:after {
+  content: attr(data-name) "&#064;" attr(data-domain) "." attr(data-tld); 
+} */
+
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
